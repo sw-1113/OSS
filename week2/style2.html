@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week2-assignment#1</title>
+</head>
+
+<style>
+    .div_navtop{
+        font-size: 180%;
+        color: white;
+        margin-left: 20px;
+    }
+    .div_navtop h1{
+        margin: 0px;
+    }
+
+    .div_maincontent{
+        display: flex;
+        flex-direction: row-reverse;
+        font-size: 80%;
+        background-color: white;
+        margin-top: 30px;
+    }
+    .div_maincontent h1{
+        color: #d14836;
+    }
+    .div_maincontent h2{
+        color: #d14836;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0px;
+    }
+
+    .div_sidecontent ul li{
+        width: 150px;
+        border: 1px solid #d14836;
+        border-radius: 20px;
+        padding: 5px;
+        background-color: #d14836;
+        color: white;
+        font-size: 140%;
+        margin: 5px 10px;
+        text-align: center;
+    }
+
+    .div_sidecontent ul li.active{
+        background-color: white;
+        color: #d14836;
+        font-weight: 700;
+    }
+    
+    .div_centercontent{
+        padding: 10px;
+    }
+    .div_centercontent a{
+        color: #d14836;
+    }
+
+    .div_sidebar{
+        color: #d14836;
+        background-color: #F6DAD7;
+        padding: 10px;
+        padding-bottom: 30px;
+    }
+
+    .div_footer{
+        font-size: 10px;
+        color: white;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+</style>
+
+<body style="background-color: #d14836;">
+    <!-- top 공간 -->
+    <div class="div_navtop">
+        <h1>Welcome to 박선우's Homepage (22400266) </h1>
+        <div class="div_navtop_content"></div>Use the menu to select different Stylesheets</div>
+    </div>
+    
+    <!-- 중간 콘텐츠 공간 -->
+     <div class="div_maincontent">
+        <div class="div_sidecontent">
+            <ul>
+                <li>Stylesheet 1</li>
+                <li class="active">Stylesheet 2</li>
+                <li>Stylesheet 3</li>
+                <li>Stylesheet 4</li>
+                <li>No Stylesheet</li>
+            </ul>
+        </div>
+
+        <div class="div_centercontent">
+            <h1>Same Page Different Stylesheets</h1>
+            This is a demonstration of how different stylesheets can change the layout of your HTML page. You 
+            can change the layout of this page by selecting different stylesheets in the menu, or by selecting 
+            one of the following links:
+            <div>
+                <a href="./style1.html">Stylesheet1</a>, 
+                <a href="./style2.html">Stylesheet2</a>, 
+                <a href="./style3.html">Stylesheet3</a>, 
+                <a href="./style4.html">Stylesheet4</a>.
+            </div>
+            <h2>No Styles</h2>
+            This page uses DIV elements to group different sections of the HTML page. Click here to see how 
+            the page looks like with no stylesheet:
+            <div>
+                <a href="./index.html">No Stylesheet</a>.
+            </div>
+        </div>
+     </div>
+     <div class="div_sidebar">
+            <h3>Side-Bar</h3>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        </div>
+     <div class="div_footer">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+     </div>
+</body>
+</html>
